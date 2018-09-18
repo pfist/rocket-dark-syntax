@@ -1,0 +1,19 @@
+{
+  "name": "rocket-dark-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "A colorful syntax theme inspired by the Atom homepage.",
+  "keywords": [
+    "atom",
+    "syntax",
+    "theme",
+    "colorful",
+    "dark",
+    "vibrant"
+  ],
+  "repository": "https://github.com/polymoon/rocket-dark-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  }
+}
