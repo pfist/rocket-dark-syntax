@@ -1,0 +1,37 @@
+
+// COLOR PALETTE //
+
+// Base Color
+@syntax-hue:          11;
+@syntax-saturation:   2%;
+@syntax-brightness:   20%;
+
+
+// Monochrome Scale
+@mono-1: hsl(37, 63%, 83%); // default text
+@mono-2: hsl(37,  20%, 55%);
+@mono-3: hsl(37, 15%, 40%);
+
+// Hues
+@hue-1:   hsl(163, 40%, 70%); // <-cyan
+@hue-2:   hsl(207, 47%, 65%); // <-blue
+@hue-3:   hsl(274, 36%, 70%); // <-purple (import from)
+@hue-4:   hsl(39, 100%, 70%); // <-green ('commander')
+@hue-5:   hsl(11, 71%, 60%); // <-red 1 (cli)
+@hue-5-2: hsl(11, 71%, 50%); // <-red 2
+@hue-6:   hsl(23, 81%, 60%); // <-orange 1
+@hue-6-2: hsl(23, 81%, 60%); // <-orange 2
+
+// Red = hsl(11, 71%, 55%)
+// Orange = hsl(23, 81%, 60%)
+// Yellow = hsl(39, 100%, 68%)
+// Green = hsl(163, 40%, 60%)
+// Blue = hsl(207, 47%, 59%)
+// Purple = hsl(274, 36%, 62%)
+
+// Syntax
+@syntax-fg:     @mono-1;
+@syntax-bg:     hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
+@syntax-gutter: darken(@mono-2, 18%);
+@syntax-guide:  fade(@syntax-fg, 15%);
+@syntax-accent: @hue-1;
